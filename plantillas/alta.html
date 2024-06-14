@@ -1,0 +1,178 @@
+<section class="alta">
+  <!-- ------------------------------------------------------------------------------- -->
+  <h1>Alta de productos</h1>
+  <hr />
+
+  <form class="alta-form">
+    <!-- campo de ingreso de nombre de producto -->
+    <div class="input-group">
+      <label for="nombre">nombre</label>
+      <input
+        class="entrada"
+        id="nombre"
+        type="text"
+        name="nombre"
+        minlength="3"
+        required
+      />
+      <div class="error-details"></div>
+    </div>
+
+    <!-- campo de ingreso de precio de producto -->
+    <div class="input-group">
+      <label for="precio">precio</label>
+      <input
+        class="entrada"
+        id="precio"
+        type="number"
+        step="0.00"
+        min="1"
+        name="precio"
+        required
+      />
+      <div class="error-details"></div>
+    </div>
+
+    <!-- campo de ingreso de stock de producto -->
+    <div class="input-group">
+      <label for="stock">stock</label>
+      <input
+        class="entrada"
+        id="stock"
+        type="number"
+        name="stock"
+        min="1"
+        required
+      />
+      <div class="error-details"></div>
+    </div>
+
+    <!-- campo de ingreso de marca de producto -->
+    <div class="input-group">
+      <label for="marca">Marca</label>
+      <input
+        class="entrada"
+        id="marca"
+        type="text"
+        name="marca"
+        minlength="3"
+        required
+      />
+      <div class="error-details"></div>
+    </div>
+
+    <!-- campo de ingreso de categoria de producto -->
+    <div class="input-group">
+      <label for="categoria">categoría</label>
+      <input
+        class="entrada"
+        id="categoria"
+        type="text"
+        name="categoria"
+        minlength="3"
+        required
+      />
+      <div class="error-details"></div>
+    </div>
+
+    <!-- campo de ingreso de descripción corta -->
+    <div class="input-group">
+      <label for="desCorta">Descripción corta</label>
+      <input
+        class="entrada"
+        id="descorta"
+        type="text"
+        name="desCorta"
+        minlength="3"
+        required
+      />
+      <div class="error-details"></div>
+    </div>
+    <!-- campo de ingreso de descripción larga -->
+    <div class="input-group">
+      <label for="desLarga">Descripción larga</label>
+      <input
+        class="entrada"
+        id="deslarga"
+        type="text"
+        name="desLarga"
+        minlength="3"
+        required
+      />
+      <div class="error-details"></div>
+    </div>
+
+    <!-- campo de ingreso de edad desde -->
+    <div class="input-group">
+      <label for="edadDesde">Edad desde:</label>
+      <input
+        class="entrada"
+        id="edaddesde"
+        type="number"
+        name="edadDesde"
+        min="0"
+        max="99"
+        required
+      />
+      <div class="error-details"></div>
+    </div>
+
+    <!-- campo de ingreso de edad hasta -->
+    <div class="input-group">
+      <label for="edadHasta">Edad hasta:</label>
+      <input
+        class="entrada"
+        id="edadhasta"
+        type="number"
+        name="edadHasta"
+        min="0"
+        max="99"
+        required
+      />
+      <div class="error-details"></div>
+    </div>
+    <!-- campo de ingreso de la foto del producto -->
+    <div class="input-group">
+      <label for="foto">foto</label>
+      <input
+        class="entrada"
+        id="foto"
+        type="text"
+        name="foto"
+        minlength="3"
+        required
+      />
+      <div class="error-details"></div>
+    </div>
+
+    <!-- campo de condición envío sin cargo-->
+    <div class="input-group">
+      <input class="entrada" id="envio" type="checkbox" name="envio" />
+      <label for="envio">envío</label>
+    </div>
+
+    <button type="submit">Agregar</button>
+  </form>
+
+  <hr />
+
+  <!-- ------------------------------------------------------------------------------- -->
+  <h2>Lista de productos disponibles</h2>
+
+  <table>
+    <!-- encabezado de la tabla -->
+    <tr>
+      <th>nombre</th>
+      <th>precio</th>
+      <th>stock</th>
+      <th>marca</th>
+      <th>categoría</th>
+      <th>descripción corta</th>
+      <th>descripción larga</th>
+      <th>edad desde</th>
+      <th>edad hasta</th>
+      <th>foto</th>
+      <th>envío</th>
+    </tr>
+  </table>
+</section>

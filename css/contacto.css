@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+.contacto {
+  font-family: "Quicksand", sans-serif;
+  height: 100%;
+  padding: 25px;
+  background: rgb(244, 236, 226);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 720px;
+}
+.contacto div {
+  padding: 10%;
+}
+.contacto #bannercontacto {
+  width: 1fr;
+  height: 1fr;
+  border-radius: 25%;
+  box-shadow: 5px 5px 5px gray;
+  background: url(../img/fondos-marca/contactus2.png);
+  background-size: cover;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+}
+.contacto #bannercontacto p {
+  padding: 30% 0;
+  text-align: center;
+  font-size: 1.7em;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px white;
+}
+
+@media (max-width: 768px) {
+  .contacto {
+    display: block;
+  }
+}
+
+.contacto #formcontacto h3 {
+  font-size: 3em;
+  padding-bottom: 5%;
+  font-weight: 100;
+  text-shadow: 2px 2px 2px gray;
+  text-align: center;
+}
+.contacto #formcontacto form {
+  width: 1fr;
+  font-size: 1.5em;
+}
+.contacto label,
+.contacto input,
+textarea {
+  display: block;
+  text-align: left;
+  padding: 10px;
+}
+.contacto input,
+textarea {
+  width: 90%;
+  text-align: right;
+  border-radius: 10px;
+  border: 2px double goldenrod;
+  box-shadow: 2px 2px 2px gray;
+}
+.contacto label {
+  text-shadow: 1px 1px 2px gray;
+}
+.contacto textarea {
+  margin-bottom: 15px;
+}
+.contacto form input:user-invalid {
+  background-color: crimson;
+}
+.contacto form input[type="submit"] {
+  color: white;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px black;
+  width: 300px;
+  text-align: center;
+  background-color: lightsalmon;
+}
+
+.contacto input[type="submit"]:hover {
+  background-color: burlywood;
+}

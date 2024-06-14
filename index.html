@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ECommerce</title>
+    <!-- css genérico -->
+    <link rel="stylesheet" href="css/estilos.css" />
+    <!-- css de las plantillas individuales -->
+    <link rel="stylesheet" href="css/inicio.css" />
+    <link rel="stylesheet" href="css/alta.css" />
+    <link rel="stylesheet" href="css/carrito.css" />
+    <link rel="stylesheet" href="css/contacto.css" />
+    <link rel="stylesheet" href="css/nosotros.css" />
+   
+  </head>
+  <body>
+    <header>
+      <div>
+        <div id="logo"></div>
+        <div id="barra-busqueda">
+          <form action="#">
+            <label>
+              <img src="./img/fondos-marca/search.png" alt="lupa"
+            /></label>
+            <input type="text" placeholder="Buscar..." />
+            <input type="submit" value="Ir" />
+          </form>
+        </div>
+        
+        <div id="boton-carrito">
+          <a href="" id="carrito2"></a>
+        </div>
+
+      </div>
+      <nav>
+        <ul>
+          <li><a href="" id="inicio">Inicio</a></li>
+          <li><a href="" id="alta">Alta</a></li>
+          <li><a href="" id="carrito">Carrito</a></li>
+          <li><a href="" id="contacto">Contacto</a></li>
+          <li><a href="" id="nosotros">Nosotros</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main></main>
+    
+    <footer>
+     
+      <div>
+        <h4>&copy; Copyright 2024</h4>
+      </div>
+      <h3>Sigamos Conectados &raquo; &raquo;</h3>
+      <div>
+        <a href="https://www.facebook.com" target="_blank">facebook</a>
+        <a href="https://www.gmail.com" target="_blank">gmail</a>
+        <a href="https://www.youtube.com" target="_blank">youtube</a>
+        <a href="https://www.whatsapp.com" target="_blank">whatsapp</a>
+      </div>
+    </footer>
+
+    <!-- script de datos -->
+    <script type="module" src="js/productosMem.js"></script>
+    <script type="module" src="js/servicioProductos.js"></script>
+    <!-- código de las plantillas individuales -->
+    <script type="module" src="js/inicio.js"></script>
+    <script type="module" src="js/alta.js"></script>
+    <script type="module" src="js/carrito.js"></script>
+    <script type="module" src="js/contacto.js"></script>
+    <script type="module" src="js/nosotros.js"></script>
+
+    <!-- código general -->
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>

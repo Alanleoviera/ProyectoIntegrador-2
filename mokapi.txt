@@ -1,0 +1,3 @@
+https://6626b1c8b625bf088c06655f.mockapi.io/api/productos
+
+https://6626b1c8b625bf088c06655f.mockapi.io/api/carrito

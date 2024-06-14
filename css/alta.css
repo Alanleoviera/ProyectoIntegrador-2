@@ -1,0 +1,185 @@
+.alta {
+  background: rgb(244, 236, 226);
+  overflow: scroll;
+  padding: 20px;
+  height: auto;
+}
+
+.alta h1 {
+  text-align: center;
+  color: brown;
+  font-size: 3em;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px gray;
+}
+
+.alta .alta-form {
+  background: linear-gradient(90deg, #fed8b6, #ffffff, #fed8b6);
+  width: 70%;
+  margin: 20px auto;
+  padding: 30px;
+  color: white;
+  border-radius: 20px;
+  border: 2px double white;
+  font-weight: bold;
+}
+
+.alta .input-group {
+  text-align: center;
+  padding: 3px;
+}
+
+.alta label {
+  color: darkgoldenrod;
+  text-transform: capitalize;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.alta label[for="envio"] {
+  display: inline-block;
+  margin: 10px 0;
+}
+
+.alta form button {
+  margin: 15px auto;
+  display: block;
+
+  width: 40%;
+  height: 35px;
+  background-color: lightsalmon;
+  border-radius: 10px;
+  font-size: 20px;
+  color: #130f40;
+}
+
+.alta input {
+  width: 70%;
+  height: 30px;
+  border-radius: 5px;
+  background: rgb(244, 236, 226);
+}
+.alta input:empty {
+  background-color: rgb(244, 236, 226);
+}
+.alta input:user-invalid {
+  background-color: crimson;
+}
+
+.alta input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
+
+/* ----- Maquetado de la tabla de productos ------- */
+
+.alta th,
+td {
+  border: 1px solid black;
+  width: 80px;
+  height: 30px;
+  padding: 10px;
+}
+
+.alta table {
+  border-collapse: collapse;
+  margin: 5px auto;
+  font-weight: bold;
+}
+
+.alta th {
+  text-transform: uppercase;
+  background-color: darkgoldenrod;
+  color: white;
+}
+
+.alta h2 {
+  color: brown;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px gray;
+  text-align: center;
+}
+
+/* -------------- Maquetado botones tabla ---------------------------- */
+
+.alta table button[id*="btnBorrar-"] {
+  margin: 15px auto;
+  display: block;
+
+  width: 90%;
+  height: 40px;
+  border-radius: 15px;
+  text-shadow: 2px 2px 2px darkgrey;
+
+  font-size: 18px;
+
+  background-color: lightcoral;
+  color: white;
+}
+
+.alta table button[id*="btnBorrar-"]:disabled {
+  opacity: 0.5;
+}
+
+.alta table button[id*="btnEditar-"] {
+  margin: 15px auto;
+  display: block;
+
+  width: 90%;
+  height: 40px;
+  border-radius: 15px;
+  font-size: 18px;
+  text-shadow: 2px 2px 2px darkgrey;
+
+  background-color: lightyellow;
+  color: #222;
+}
+
+.alta table button[id*="btnCancelar-"] {
+  margin: 15px auto;
+  display: block;
+
+  width: 90%;
+  height: 40px;
+  border-radius: 15px;
+
+  font-size: 16px;
+
+  background-color: #222;
+  color: gold;
+}
+
+.alta .btnAgregar {
+  margin: 15px auto;
+  display: block;
+
+  width: 40%;
+  height: 35px;
+  border-radius: 10px;
+  font-size: 20px;
+
+  background-color: #6ab04c;
+  color: #130f40;
+}
+
+.alta .btnAgregar:disabled {
+  opacity: 0.5;
+}
+
+.alta .btnActualizar {
+  margin: 15px auto;
+  display: block;
+
+  width: 40%;
+  height: 35px;
+  border-radius: 10px;
+  font-size: 20px;
+
+  background-color: gold;
+  color: #222;
+}
+.alta .btnActualizar:disabled {
+  opacity: 0.5;
+}

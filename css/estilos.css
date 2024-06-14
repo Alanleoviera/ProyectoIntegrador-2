@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  width: 100%;
+  min-width: 500px;
+  overflow: scroll;
+}
+
+ul,
+h1,
+h3,
+p {
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  height: auto;
+}
+
+header nav {
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(90deg, #fed8b6, rgb(244, 236, 226), #fed8b6);
+  display: flex;
+  border: 1px dotted gray;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav ul {
+  list-style: none;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+@media (max-width: 768px) {
+  header nav ul {
+    flex-direction: column;
+  }
+
+  header nav {
+    display: block;
+    width: 100%;
+    height: 28vh;
+  }
+}
+
+header nav ul li a {
+  font-size: 1.3em;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  display: block;
+  width: 120px;
+  height: 50px;
+  background-color: white;
+  border: 1px solid #fed8b6;
+  border-radius: 10px;
+  box-shadow: grey 2px 1px 5px;
+  text-shadow: 2px 1px 2px rgb(143, 98, 35);
+
+  transition: all 1s 0s ease-in-out;
+}
+header nav ul li a:hover {
+  font-size: 1.8em;
+  width: 150px;
+  height: 60px;
+  line-height: 60px;
+}
+
+header > div {
+  background: url(../img/fondos-marca/fondo4.jpg);
+  background-size: 100%;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+
+#logo {
+  content: url(../img/fondos-marca/logo.png);
+  width: 200px;
+  height: auto;
+  margin: 0;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#barra-busqueda {
+  color: black;
+  width: 85%;
+  height: auto;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 70px;
+}
+
+#barra-busqueda form label {
+  padding: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+#barra-busqueda form input {
+  background-color: rgb(244, 236, 226);
+  width: 50%;
+  height: 30px;
+  color: black;
+  border-radius: 10px;
+}
+
+#barra-busqueda form input[type="submit"] {
+  width: 60px;
+  height: 35px;
+  font-size: 22px;
+  background-color: rgb(143, 98, 35);
+}
+#boton-carrito {
+  width: 10%;
+  height: 10%;
+  content: url("../img/fondos-marca/shopping-cart.png");
+  background-size: cover;
+  cursor: pointer;
+}
+
+main {
+  height: auto;
+}
+
+footer {
+  background: url(../img/fondos-marca/fondo4.jpg);
+  height: 100px;
+
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+footer h3 {
+  color: white;
+  line-height: 100px;
+  font-size: 1.8em;
+  text-shadow: 2px 2px 2px gray;
+}
+footer div:last-child {
+  display: grid;
+  grid-template-columns: 70px 70px 70px 70px;
+}
+footer div a {
+  width: 70px;
+  height: 70px;
+}
+footer a:nth-child(1) {
+  content: url(../img/fondos-marca/face-removebg-preview.png);
+  content: url(../img/fondos-marca/face-removebg-preview.png);
+}
+footer a:nth-child(2) {
+  content: url(../img/fondos-marca/mail-removebg-preview.png);
+}
+footer a:nth-child(3) {
+  content: url(../img/fondos-marca/you-removebg-preview.png);
+}
+footer a:nth-child(4) {
+  content: url(../img/fondos-marca/wasap-removebg-preview.png);
+}

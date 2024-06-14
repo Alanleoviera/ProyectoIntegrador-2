@@ -1,0 +1,90 @@
+.inicio {
+  width: 100%;
+  height: auto;
+  background: rgb(244, 236, 226);
+  padding: 25px;
+  text-align: center;
+}
+
+.inicio .section-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.inicio section img {
+  width: 250px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 2px 5px 10px gray;
+}
+
+.inicio section {
+  border: 2px double white;
+  width: 350px;
+  padding: 15px;
+  background-color: rgb(237, 237, 237);
+  background: linear-gradient(90deg, #fed8b6, #ffffff, #fed8b6);
+  box-shadow: grey 2px 1px 5px;
+  color: black;
+  margin: 25px;
+  border-radius: 50px;
+  transition: all 1s 0s ease-in-out;
+}
+
+.inicio section h3 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: darkslategray;
+}
+.inicio section ul {
+  text-align: left;
+}
+.inicio section div {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.inicio section input[type="checkbox"] {
+  width: 15px;
+  height: 15px;
+}
+.inicio section button {
+  margin-top: 15px;
+  padding: 10px;
+  font-size: 1em;
+  color: white;
+  border-radius: 15px;
+  background-color: chocolate;
+  box-shadow: 2px 2px 5px rgb(143, 98, 35);
+}
+.inicio section button:active {
+  color: black;
+  background-color: lightgreen;
+}
+
+.inicio .section-cards-header h1 {
+  color: brown;
+  font-size: 3em;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px gray;
+}
+
+.inicio section:hover {
+  transform: scaleX(1.2) scaleY(1.2);
+}
+
+.inicio .section-cards-container div[id*="myAlert-"] {
+  display: none;
+  font-weight: bold;
+  margin-top: 15px;
+  padding: 10px;
+  font-size: 1em;
+  color: black;
+  border-radius: 15px;
+  margin: 10px;
+  background-color: lightgreen;
+  box-shadow: grey 2px 1px 5px;
+}

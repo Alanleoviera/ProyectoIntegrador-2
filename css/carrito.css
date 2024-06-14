@@ -1,0 +1,128 @@
+.carrito {
+  width: 100%;
+  min-height: 100vh;
+  background: rgb(244, 236, 226);
+
+  padding: 20px;
+  height: auto;
+  min-height: 520px;
+  overflow: scroll;
+}
+
+.carrito h1 {
+  text-align: center;
+  color: brown;
+  font-size: 3em;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px gray;
+}
+
+/* ----- Maquetado de la tabla de productos ------- */
+.carrito th,
+td {
+  border: 1px solid black;
+  width: 110px;
+  height: 30px;
+  padding: 10px;
+}
+
+.carrito table {
+  border-collapse: collapse;
+  margin: 5px auto;
+  align-items: center;
+}
+
+.carrito th {
+  text-transform: uppercase;
+  background-color: darkgoldenrod;
+  color: white;
+}
+
+.carrito h2 {
+  color: brown;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px gray;
+  text-align: center;
+}
+
+.carrito .centrar {
+  text-align: center;
+}
+
+.carrito table button[id*="btnBorrar-"] {
+  margin: 15px auto;
+  display: block;
+
+  width: 90%;
+  height: 35px;
+  border-radius: 15px;
+  font-size: 18px;
+
+  background-color: orangered;
+  color: white;
+}
+.carrito table button[id*="btnBorrar-"]:active {
+  background-color: lightgoldenrodyellow;
+  color: red;
+}
+
+#cant-btn {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: red;
+  font-weight: bold;
+}
+
+.carrito table button[id*="btnDecrementar-"],
+.carrito table button[id*="btnIncrementar-"] {
+  margin: 15px auto;
+  font-weight: bold;
+
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  font-size: 18px;
+  align-items: right;
+  padding-left: 5px;
+
+  background-color: gray;
+  color: white;
+}
+
+.carrito table button[id*="btnIncrementar-"]:active {
+  background-color: lightgreen;
+}
+
+.carrito table button[id*="btnDecrementar-"]:active {
+  background-color: lightcoral;
+}
+
+.carrito__borrar {
+  margin: 15px auto;
+  display: block;
+
+  width: 150px;
+  height: 40px;
+  border-radius: 15px;
+  font-size: 18px;
+  text-shadow: 2px 2px 2px darkgrey;
+
+  background-color: red;
+  color: white;
+}
+
+.carrito__pedir {
+  margin: 15px auto;
+  display: block;
+
+  width: 150px;
+  height: 40px;
+  border-radius: 15px;
+  font-size: 18px;
+  text-shadow: 2px 2px 2px darkgrey;
+
+  background-color: lightgreen;
+  color: white;
+}
